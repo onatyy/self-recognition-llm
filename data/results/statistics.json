@@ -1,0 +1,39 @@
+{
+  "condition_stats": {
+    "cross_model": {
+      "n_correct": 11,
+      "n_total": 25,
+      "accuracy": 0.44,
+      "p_value": 0.6900379657745361,
+      "ci_95_low": 0.24402366514722024,
+      "ci_95_high": 0.6507183660086643
+    },
+    "within_model": {
+      "n_correct": 17,
+      "n_total": 25,
+      "accuracy": 0.68,
+      "p_value": 0.10775214433670044,
+      "ci_95_low": 0.46499928250261535,
+      "ci_95_high": 0.8505045773864304
+    }
+  },
+  "cross_model_vs_within_model": {
+    "contingency_table": [
+      [
+        11,
+        14
+      ],
+      [
+        17,
+        8
+      ]
+    ],
+    "fisher_exact_p_value": 0.15364729969234217
+  },
+  "positional_bias": {
+    "n_A": 44,
+    "n_B": 6,
+    "chi2_statistic": 28.88,
+    "p_value": 7.70039274569642e-08
+  }
+}

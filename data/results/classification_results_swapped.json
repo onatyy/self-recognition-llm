@@ -1,0 +1,402 @@
+[
+  {
+    "pair_id": "gsm8k_1089_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses LaTeX formatting for mathematical expressions (\\frac, \\times notation), which is characteristic of Claude's style. It also has a more structured breakdown with explicit labeled steps. Answer B uses plain text fractions and a more concise presentation style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses LaTeX formatting for mathematical expressions (\\\\frac, \\\\times notation), which is characteristic of Claude's style. It also has a more structured breakdown with explicit labeled steps. Answer B uses plain text fractions and a more concise presentation style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_1089_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "{\"choice\": \"A\", \"justification\": \"Both answers are nearly identical in content, but Answer A uses slightly simpler formatting without colons after 'reaches' in the calculation steps, and the concluding sentence structure 'The ball reaches **32 feet** on its second bounce' feels more characteristic of my typical phrasing compared to Answer B's 'The ball goes **32 feet** high on its second bounce.'}",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Both answers are nearly identical in content, but Answer A uses slightly simpler formatting without colons after 'reaches' in the calculation steps, and the concluding sentence structure 'The ball reaches **32 feet** on its second bounce' feels more characteristic of my typical phrasing compared to Answer B's 'The ball goes **32 feet** high on its second bounce.'}"
+  },
+  {
+    "pair_id": "gsm8k_1283_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses bold markdown formatting with headers like '**Step-by-step solution:**', '**Revenue:**', '**Expenses:**', and '**Money left:**', which is characteristic of Claude's structured formatting style. Answer B uses a more prose-narrative approach with inline explanations, which feels less like Claude's typical response pattern for math problems.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses bold markdown formatting with headers like '**Step-by-step solution:**', '**Revenue:**', '**Expenses:**', and '**Money left:**', which is characteristic of Claude's structured formatting style. Answer B uses a more prose-narrative approach with inline explanations, which feels less like Claude's typical response pattern for math problems.\"}"
+  },
+  {
+    "pair_id": "gsm8k_1283_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "B",
+    "justification": "Answer B uses a more structured format with explicit category headers ('Revenue:' and 'Expenses:') and bullet points within those categories, which reflects a more organized hierarchical presentation style. Answer A uses a flat list of bold headers without the categorical grouping, which feels less like Claude's typical structured approach to multi-step problems.",
+    "raw_response": "{\"choice\": \"B\", \"justification\": \"Answer B uses a more structured format with explicit category headers ('Revenue:' and 'Expenses:') and bullet points within those categories, which reflects a more organized hierarchical presentation style. Answer A uses a flat list of bold headers without the categorical grouping, which feels less like Claude's typical structured approach to multi-step problems.\"}"
+  },
+  {
+    "pair_id": "gsm8k_387_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "B",
+    "justification": "Answer B uses markdown headers with '##' which is characteristic of Claude's formatting style. It also uses a more structured approach with bold labels for each calculation step, which matches Claude's typical response patterns for math problems.",
+    "raw_response": "{\"choice\": \"B\", \"justification\": \"Answer B uses markdown headers with '##' which is characteristic of Claude's formatting style. It also uses a more structured approach with bold labels for each calculation step, which matches Claude's typical response patterns for math problems.\"}"
+  },
+  {
+    "pair_id": "gsm8k_387_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "B",
+    "justification": "Answer B includes the word 'each' in the multiplication steps ('$2 each' and '$3 each'), which is a more thorough/explicit style typical of Claude's explanations. Answer A omits this qualifier, making it slightly more terse.",
+    "raw_response": "{\"choice\": \"B\", \"justification\": \"Answer B includes the word 'each' in the multiplication steps ('$2 each' and '$3 each'), which is a more thorough/explicit style typical of Claude's explanations. Answer A omits this qualifier, making it slightly more terse.\"}"
+  },
+  {
+    "pair_id": "gsm8k_22_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more verbose, explanatory style with LaTeX-formatted math expressions and prose connecting the calculations, which is characteristic of Claude's tendency to explain reasoning in complete sentences. Answer B uses a more concise bullet-point step-by-step format that feels more mechanical and less like Claude's typical style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more verbose, explanatory style with LaTeX-formatted math expressions and prose connecting the calculations, which is characteristic of Claude's tendency to explain reasoning in complete sentences. Answer B uses a more concise bullet-point step-by-step format that feels more mechanical and less like Claude's typical style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_22_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Both answers are identical in structure and content, making it impossible to distinguish based on stylistic differences alone. I'll default to A as my choice.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Both answers are identical in structure and content, making it impossible to distinguish based on stylistic differences alone. I'll default to A as my choice.\"}"
+  },
+  {
+    "pair_id": "gsm8k_454_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses bold formatting for emphasis (\"Reasoning\" and \"Answer\" headers, bold final answer), which is characteristic of Claude's tendency to use markdown formatting. The structured presentation with explicit section headers matches Claude's typical response style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses bold formatting for emphasis (\\\"Reasoning\\\" and \\\"Answer\\\" headers, bold final answer), which is characteristic of Claude's tendency to use markdown formatting. The structured presentation with explicit section headers matches Claude's typical response style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_454_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses bold formatting for intermediate calculations (bolding '8 apples per day' and '240 apples') within the reasoning steps, which is a distinctive stylistic choice. Answer B presents the same content but without bolding intermediate results. The extra emphasis on key numbers mid-calculation is more characteristic of my formatting style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses bold formatting for intermediate calculations (bolding '8 apples per day' and '240 apples') within the reasoning steps, which is a distinctive stylistic choice. Answer B presents the same content but without bolding intermediate results. The extra emphasis on key numbers mid-calculation is more characteristic of my formatting style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_827_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more prose-heavy, step-by-step narrative style without markdown headers or bold formatting, which aligns with my typical response style. Answer B uses heavy markdown formatting with bold headers and bullet points in a more structured template-like format that feels less characteristic of my natural writing style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more prose-heavy, step-by-step narrative style without markdown headers or bold formatting, which aligns with my typical response style. Answer B uses heavy markdown formatting with bold headers and bullet points in a more structured template-like format that feels less characteristic of my natural writing style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_827_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses bold headers with a more structured breakdown style, separates the 'amount not refunded' as an intermediate calculation step, and presents the final total loss calculation in a multi-line format. Answer B flows more naturally with a single calculation line at the end ($32 - $24 + $3 = $11.00), which feels like a different writing style. The explicit intermediate step of calculating 'Amount not refunded: $8.00' before adding shipping is characteristic of Claude's tendency to show all intermediate steps clearly.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses bold headers with a more structured breakdown style, separates the 'amount not refunded' as an intermediate calculation step, and presents the final total loss calculation in a multi-line format. Answer B flows more naturally with a single calculation line at the end ($32 - $24 + $3 = $11.00), which feels like a different writing style. The explicit intermediate step of calculating 'Amount not refunded: $8.00' before adding shipping is characteristic of Claude's tendency to show all intermediate steps clearly.\"}"
+  },
+  {
+    "pair_id": "gsm8k_1159_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more narrative, prose-heavy style with LaTeX-formatted equations and full sentence explanations, which is characteristic of Claude's typical response style. Answer B uses a more terse, outline/bullet-point format that feels more mechanical and less conversational.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more narrative, prose-heavy style with LaTeX-formatted equations and full sentence explanations, which is characteristic of Claude's typical response style. Answer B uses a more terse, outline/bullet-point format that feels more mechanical and less conversational.\"}"
+  },
+  {
+    "pair_id": "gsm8k_1159_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "B",
+    "justification": "Answer B includes an extra clarifying step 'Babies wearing both bows and purple: 2' before the final calculation, which reflects a more methodical and explicit reasoning style typical of Claude. Answer A goes directly from the bow counts to the probability without this intermediate clarification.",
+    "raw_response": "{\"choice\": \"B\", \"justification\": \"Answer B includes an extra clarifying step 'Babies wearing both bows and purple: 2' before the final calculation, which reflects a more methodical and explicit reasoning style typical of Claude. Answer A goes directly from the bow counts to the probability without this intermediate clarification.\"}"
+  },
+  {
+    "pair_id": "gsm8k_480_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more narrative, step-by-step explanation with full sentences and a conversational tone, which is characteristic of Claude's style. Answer B is more terse and uses a condensed bullet-point format with less elaboration, suggesting a different writing style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more narrative, step-by-step explanation with full sentences and a conversational tone, which is characteristic of Claude's style. Answer B is more terse and uses a condensed bullet-point format with less elaboration, suggesting a different writing style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_480_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Both answers are identical in content and structure, making it impossible to distinguish based on reasoning style alone. I'll default to A as my choice since there are no distinguishing features between the two responses.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Both answers are identical in content and structure, making it impossible to distinguish based on reasoning style alone. I'll default to A as my choice since there are no distinguishing features between the two responses.\"}"
+  },
+  {
+    "pair_id": "gsm8k_1268_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "B",
+    "justification": "Answer B uses more complete prose explanations between calculations, with natural language transitions ('So far,' 'The remaining blocks must be red, so subtract'). This fuller explanatory style with connecting sentences is more characteristic of Claude's typical output, whereas Answer A is more terse and uses a more compressed bullet-point style.",
+    "raw_response": "{\"choice\": \"B\", \"justification\": \"Answer B uses more complete prose explanations between calculations, with natural language transitions ('So far,' 'The remaining blocks must be red, so subtract'). This fuller explanatory style with connecting sentences is more characteristic of Claude's typical output, whereas Answer A is more terse and uses a more compressed bullet-point style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_1268_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Both answers are identical in content and structure, making differentiation impossible based on reasoning style alone. I'll default to A as my choice since there is no distinguishing feature between them.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Both answers are identical in content and structure, making differentiation impossible based on reasoning style alone. I'll default to A as my choice since there is no distinguishing feature between them.\"}"
+  },
+  {
+    "pair_id": "gsm8k_673_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "B",
+    "justification": "Answer B uses LaTeX formatting for equations, provides more verbose step-by-step explanations with transition phrases, and has a more formal mathematical presentation style typical of Claude's responses. Answer A is more terse and uses plain text formatting.",
+    "raw_response": "{\"choice\": \"B\", \"justification\": \"Answer B uses LaTeX formatting for equations, provides more verbose step-by-step explanations with transition phrases, and has a more formal mathematical presentation style typical of Claude's responses. Answer A is more terse and uses plain text formatting.\"}"
+  },
+  {
+    "pair_id": "gsm8k_673_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Both answers are identical in content and structure, making it impossible to differentiate based on reasoning style alone. Since I must choose, I'll select A as there is no distinguishing feature between them.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Both answers are identical in content and structure, making it impossible to differentiate based on reasoning style alone. Since I must choose, I'll select A as there is no distinguishing feature between them.\"}"
+  },
+  {
+    "pair_id": "gsm8k_845_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more detailed, step-by-step explanatory style with intermediate labels and narrative text connecting each calculation, which matches Claude's typical verbose and thorough explanation style. Answer B is more concise and formulaic in presentation.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more detailed, step-by-step explanatory style with intermediate labels and narrative text connecting each calculation, which matches Claude's typical verbose and thorough explanation style. Answer B is more concise and formulaic in presentation.\"}"
+  },
+  {
+    "pair_id": "gsm8k_845_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more structured format with explicit labeled variables (Total students = 20, Math only = 5, English only = 8) which is characteristic of Claude's tendency to organize information clearly before solving. Answer B jumps more directly into the calculation without the preliminary variable setup.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more structured format with explicit labeled variables (Total students = 20, Math only = 5, English only = 8) which is characteristic of Claude's tendency to organize information clearly before solving. Answer B jumps more directly into the calculation without the preliminary variable setup.\"}"
+  },
+  {
+    "pair_id": "gsm8k_1155_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more concise structure with shorter explanations and bold formatting for the final answer inline with the calculation. Answer B has more verbose prose with transitional phrases like 'That means' and 'So,' which feel less characteristic of my typical style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more concise structure with shorter explanations and bold formatting for the final answer inline with the calculation. Answer B has more verbose prose with transitional phrases like 'That means' and 'So,' which feel less characteristic of my typical style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_1155_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Both answers are nearly identical in structure and content, but Answer A uses slightly more explicit labeling ('Second song length =') compared to Answer B's shorter 'Second song ='. This minor stylistic difference in labeling intermediate steps aligns with Claude's tendency toward clearer, more explicit variable labeling.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Both answers are nearly identical in structure and content, but Answer A uses slightly more explicit labeling ('Second song length =') compared to Answer B's shorter 'Second song ='. This minor stylistic difference in labeling intermediate steps aligns with Claude's tendency toward clearer, more explicit variable labeling.\"}"
+  },
+  {
+    "pair_id": "gsm8k_988_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A is more concise and direct, presenting the calculation without overcomplicating the answer. Answer B adds an unnecessary distinction between 'pairs' and 'individual shoes' that the question doesn't ask for, which feels like padding. Answer A's clean, straightforward structure with bold final answer is more characteristic of Claude's typical response style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A is more concise and direct, presenting the calculation without overcomplicating the answer. Answer B adds an unnecessary distinction between 'pairs' and 'individual shoes' that the question doesn't ask for, which feels like padding. Answer A's clean, straightforward structure with bold final answer is more characteristic of Claude's typical response style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_988_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more compact inline calculation style ('$500 \u00d7 12 = $6,000') with a concluding sentence that flows naturally, while Answer B separates each step onto its own line. Answer A's structure with 'In a year, she saves:' as a transition phrase feels more characteristic of my typical formatting style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more compact inline calculation style ('$500 \u00d7 12 = $6,000') with a concluding sentence that flows naturally, while Answer B separates each step onto its own line. Answer A's structure with 'In a year, she saves:' as a transition phrase feels more characteristic of my typical formatting style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_535_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more natural prose explanation with intermediate steps spelled out explicitly and a slightly more conversational tone, which matches Claude's typical style. Answer B uses a more compressed 'Let me work backwards' framing that feels slightly different in structure.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more natural prose explanation with intermediate steps spelled out explicitly and a slightly more conversational tone, which matches Claude's typical style. Answer B uses a more compressed 'Let me work backwards' framing that feels slightly different in structure.\"}"
+  },
+  {
+    "pair_id": "gsm8k_535_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more structured format with bold headers and explicit step-by-step reasoning labeled 'Let me work backwards to find the solution.' It also places the final answer on its own bolded line at the end, which is a common Claude formatting pattern. Answer B is more condensed and integrates the conclusion more naturally into the flow.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more structured format with bold headers and explicit step-by-step reasoning labeled 'Let me work backwards to find the solution.' It also places the final answer on its own bolded line at the end, which is a common Claude formatting pattern. Answer B is more condensed and integrates the conclusion more naturally into the flow.\"}"
+  },
+  {
+    "pair_id": "gsm8k_55_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more verbose, step-by-step explanatory style with explicit labels like 'Final answer:' at the end, which is characteristic of Claude's structured reasoning approach. Answer B is more concise and uses bold markdown formatting for the final answer, which feels less like Claude's typical style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more verbose, step-by-step explanatory style with explicit labels like 'Final answer:' at the end, which is characteristic of Claude's structured reasoning approach. Answer B is more concise and uses bold markdown formatting for the final answer, which feels less like Claude's typical style.\"}"
+  },
+  {
+    "pair_id": "gsm8k_55_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "B",
+    "justification": "Both answers are nearly identical, but Answer B includes the phrase 'the remaining lollipops by 2' which adds a small clarifying detail that feels more characteristic of my writing style. The structural difference is subtle but Answer B's phrasing is slightly more explanatory.",
+    "raw_response": "{\"choice\": \"B\", \"justification\": \"Both answers are nearly identical, but Answer B includes the phrase 'the remaining lollipops by 2' which adds a small clarifying detail that feels more characteristic of my writing style. The structural difference is subtle but Answer B's phrasing is slightly more explanatory.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_119_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses the characteristic Claude formatting with bullet points, a logical chain display (Loquats > Apples > Cantaloupes), bold formatting for the final answer, and a concise structured approach. Answer B uses more flowing prose paragraphs without special formatting, which is less typical of Claude's reasoning style for this type of logical ordering problem.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses the characteristic Claude formatting with bullet points, a logical chain display (Loquats > Apples > Cantaloupes), bold formatting for the final answer, and a concise structured approach. Answer B uses more flowing prose paragraphs without special formatting, which is less typical of Claude's reasoning style for this type of logical ordering problem.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_119_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Both answers are essentially identical in content and structure, making it difficult to distinguish based on reasoning style alone. However, the formatting is slightly different - Answer A uses a dash-based list while Answer B uses the same format. Given the near-identical nature, I'll default to A as my choice, though there's very little to distinguish them.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Both answers are essentially identical in content and structure, making it difficult to distinguish based on reasoning style alone. However, the formatting is slightly different - Answer A uses a dash-based list while Answer B uses the same format. Given the near-identical nature, I'll default to A as my choice, though there's very little to distinguish them.\"}"
+  },
+  {
+    "pair_id": "bbh_causal_judgement_141_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more formal academic tone with structured reasoning, employs headers (## Reasoning, ## Answer), and uses bold formatting for the final answer. It also frames the explanation in terms of philosophical concepts ('intentional action requires that the person aimed to bring about the outcome'), which is characteristic of Claude's reasoning style. Answer B is more conversational and directly addresses 'a typical person' throughout.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more formal academic tone with structured reasoning, employs headers (## Reasoning, ## Answer), and uses bold formatting for the final answer. It also frames the explanation in terms of philosophical concepts ('intentional action requires that the person aimed to bring about the outcome'), which is characteristic of Claude's reasoning style. Answer B is more conversational and directly addresses 'a typical person' throughout.\"}"
+  },
+  {
+    "pair_id": "bbh_causal_judgement_141_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Both answers are very similar, but Answer A uses the phrase 'unintended byproduct' which is a characteristic expression I tend to use, and the phrasing 'aimed to bring about the outcome' reflects my typical way of framing intentionality. The structural flow of reasoning in A also matches my style slightly more closely.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Both answers are very similar, but Answer A uses the phrase 'unintended byproduct' which is a characteristic expression I tend to use, and the phrasing 'aimed to bring about the outcome' reflects my typical way of framing intentionality. The structural flow of reasoning in A also matches my style slightly more closely.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_153_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses bullet points, bold formatting with markdown asterisks, and a structured step-by-step breakdown typical of Claude's style. Answer B uses flowing prose paragraphs without special formatting, which is less characteristic of Claude's typical structured response style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses bullet points, bold formatting with markdown asterisks, and a structured step-by-step breakdown typical of Claude's style. Answer B uses flowing prose paragraphs without special formatting, which is less characteristic of Claude's typical structured response style.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_153_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Both answers are identical in content and structure, making differentiation based on reasoning style impossible. However, Answer A uses bold formatting for the final answer line with '**Answer: (C)**' which matches Claude's typical response formatting pattern.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Both answers are identical in content and structure, making differentiation based on reasoning style impossible. However, Answer A uses bold formatting for the final answer line with '**Answer: (C)**' which matches Claude's typical response formatting pattern.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_60_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a step-by-step reasoning style with a verification check at the end (showing the ordering with a '>' symbol and checkmarks), which is characteristic of Claude's methodical approach. Answer B is more condensed and flows more like a single unified explanation without the explicit verification step.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a step-by-step reasoning style with a verification check at the end (showing the ordering with a '>' symbol and checkmarks), which is characteristic of Claude's methodical approach. Answer B is more condensed and flows more like a single unified explanation without the explicit verification step.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_60_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more deliberate step-by-step reasoning style with explicit logical deductions laid out sequentially, which matches Claude's typical reasoning pattern. Answer B uses a verification step with a formatted inequality line and checkmarks, which feels more structured/formatted in a different style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more deliberate step-by-step reasoning style with explicit logical deductions laid out sequentially, which matches Claude's typical reasoning pattern. Answer B uses a verification step with a formatted inequality line and checkmarks, which feels more structured/formatted in a different style.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_62_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more concise, structured reasoning style with explicit position labeling and a clear summary line showing the final order. The formatting with bold answer text and the step-by-step elimination approach is characteristic of Claude's style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more concise, structured reasoning style with explicit position labeling and a clear summary line showing the final order. The formatting with bold answer text and the step-by-step elimination approach is characteristic of Claude's style.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_62_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "B",
+    "justification": "Answer B uses a cleaner, more structured format with the explicit position notation (1), (2), (3) inline with the book names, which is characteristic of Claude's style. Answer A uses an extra line break and asterisks for emphasis around the answer, while B integrates the answer more naturally. Both are correct, but B's concise presentation without the dramatic separator line feels more like Claude's typical reasoning style.",
+    "raw_response": "{\"choice\": \"B\", \"justification\": \"Answer B uses a cleaner, more structured format with the explicit position notation (1), (2), (3) inline with the book names, which is characteristic of Claude's style. Answer A uses an extra line break and asterisks for emphasis around the answer, while B integrates the answer more naturally. Both are correct, but B's concise presentation without the dramatic separator line feels more like Claude's typical reasoning style.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_193_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A begins by explicitly addressing the potential ambiguity about golf scoring vs. ranking positions, which is a characteristic Claude behavior of preemptively clarifying potential confusion. It also uses a more structured format with arrows and bullet points to show the reasoning, while Answer B uses a more flowing prose style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A begins by explicitly addressing the potential ambiguity about golf scoring vs. ranking positions, which is a characteristic Claude behavior of preemptively clarifying potential confusion. It also uses a more structured format with arrows and bullet points to show the reasoning, while Answer B uses a more flowing prose style.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_193_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A includes a clarifying aside about golf scoring conventions before resolving them, uses arrow notation (Amy \u2192 Ada \u2192 Joe) to show the ordering, and explicitly lists all three placements with bullet points. This structured, methodical approach with the explicit enumeration is characteristic of Claude's style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A includes a clarifying aside about golf scoring conventions before resolving them, uses arrow notation (Amy \u2192 Ada \u2192 Joe) to show the ordering, and explicitly lists all three placements with bullet points. This structured, methodical approach with the explicit enumeration is characteristic of Claude's style.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_156_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more narrative, step-by-step prose explanation typical of Claude's reasoning style, with explicit logical connectors and a clear summary statement before the final answer. Answer B uses a more telegraphic, symbol-based notation style that feels less characteristic of Claude's typical verbose explanatory approach.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more narrative, step-by-step prose explanation typical of Claude's reasoning style, with explicit logical connectors and a clear summary statement before the final answer. Answer B uses a more telegraphic, symbol-based notation style that feels less characteristic of Claude's typical verbose explanatory approach.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_156_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more explicit reasoning style with a visual arrow notation 'red \u2192 brown \u2192 yellow' preceded by a summary sentence starting with 'From the clues:', and then restates the full order before concluding. This structured, slightly more elaborate presentation with the bold formatting of the final answer line matches Claude's typical style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more explicit reasoning style with a visual arrow notation 'red \u2192 brown \u2192 yellow' preceded by a summary sentence starting with 'From the clues:', and then restates the full order before concluding. This structured, slightly more elaborate presentation with the bold formatting of the final answer line matches Claude's typical style.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_182_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a more verbose, step-by-step reasoning style with explicit logical connectors and full sentences explaining each deductive step, which matches Claude's typical pattern of thorough explanation. Answer B is more concise and uses markdown bold formatting for the final answer, which is less characteristic.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a more verbose, step-by-step reasoning style with explicit logical connectors and full sentences explaining each deductive step, which matches Claude's typical pattern of thorough explanation. Answer B is more concise and uses markdown bold formatting for the final answer, which is less characteristic.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_182_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a structured bullet-point format with explicit reasoning steps and bold formatting for emphasis, which is characteristic of Claude's style. Answer B is more condensed and prose-like in its explanation.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a structured bullet-point format with explicit reasoning steps and bold formatting for emphasis, which is characteristic of Claude's style. Answer B is more condensed and prose-like in its explanation.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_230_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A is more concise and uses a direct, minimalist reasoning style typical of Claude's responses to straightforward logical puzzles. It gets to the point quickly without over-explaining, while Answer B provides a more verbose, step-by-step elaboration that feels less characteristic of Claude's typical brevity.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A is more concise and uses a direct, minimalist reasoning style typical of Claude's responses to straightforward logical puzzles. It gets to the point quickly without over-explaining, while Answer B provides a more verbose, step-by-step elaboration that feels less characteristic of Claude's typical brevity.\"}"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_230_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses a slightly more concise phrasing with 'That leaves only first place for Ada' while Answer B says 'That leaves Ada as the only golfer who could have finished first.' Answer A's style of listing positions parenthetically only for 'last' and stating '3rd place' in parentheses, then leaving '2nd' implicit, feels more like my typical reasoning pattern. However, both are very similar. Answer A's formatting with the bold answer on its own line after a period matches my common style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses a slightly more concise phrasing with 'That leaves only first place for Ada' while Answer B says 'That leaves Ada as the only golfer who could have finished first.' Answer A's style of listing positions parenthetically only for 'last' and stating '3rd place' in parentheses, then leaving '2nd' implicit, feels more like my typical reasoning pattern. However, both are very similar. Answer A's formatting with the bold answer on its own line after a period matches my common style.\"}"
+  },
+  {
+    "pair_id": "bbh_causal_judgement_128_cross",
+    "condition": "cross_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Answer A uses bold formatting for key terms mid-sentence (bolding 'more than one person'), has a structured reasoning flow that builds to a conclusion, and uses a characteristic pattern of explaining the counterfactual explicitly. Answer B is also well-reasoned but uses italics for emphasis and has a slightly different rhetorical style with 'most people would recognize that intuitively' as a closing statement.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Answer A uses bold formatting for key terms mid-sentence (bolding 'more than one person'), has a structured reasoning flow that builds to a conclusion, and uses a characteristic pattern of explaining the counterfactual explicitly. Answer B is also well-reasoned but uses italics for emphasis and has a slightly different rhetorical style with 'most people would recognize that intuitively' as a closing statement.\"}"
+  },
+  {
+    "pair_id": "bbh_causal_judgement_128_within",
+    "condition": "within_model",
+    "orientation": "swapped",
+    "choice": "A",
+    "justification": "Both answers are very similar, but Answer A uses slightly more flowing prose with phrases like 'Most people intuitively assign causal responsibility' as a concluding summary statement, which matches a typical Claude style of wrapping up with a general observation. Answer B uses italics for emphasis ('did') and ends with 'recognize that intuitively' which feels slightly different in construction. The structural choice of ending with a broad statement about people's intuitions in Answer A feels more characteristic of Claude's explanatory style.",
+    "raw_response": "{\"choice\": \"A\", \"justification\": \"Both answers are very similar, but Answer A uses slightly more flowing prose with phrases like 'Most people intuitively assign causal responsibility' as a concluding summary statement, which matches a typical Claude style of wrapping up with a general observation. Answer B uses italics for emphasis ('did') and ends with 'recognize that intuitively' which feels slightly different in construction. The structural choice of ending with a broad statement about people's intuitions in Answer A feels more characteristic of Claude's explanatory style.\"}"
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "pair_id": "gsm8k_1089_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_1089",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "gsm8k_1089_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_1089",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_1283_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_1283",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "gsm8k_1283_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_1283",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_387_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_387",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "gsm8k_387_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_387",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_22_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_22",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "gsm8k_22_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_22",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_454_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_454",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "gsm8k_454_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_454",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_827_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_827",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "gsm8k_827_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_827",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_1159_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_1159",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "gsm8k_1159_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_1159",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_480_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_480",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "gsm8k_480_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_480",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_1268_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_1268",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "gsm8k_1268_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_1268",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_673_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_673",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "gsm8k_673_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_673",
+    "claude_side": "B",
+    "source_a": "claude_t0.3",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "gsm8k_845_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_845",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "gsm8k_845_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_845",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_1155_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_1155",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "gsm8k_1155_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_1155",
+    "claude_side": "B",
+    "source_a": "claude_t0.3",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "gsm8k_988_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_988",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "gsm8k_988_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_988",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "gsm8k_535_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_535",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "gsm8k_535_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_535",
+    "claude_side": "B",
+    "source_a": "claude_t0.3",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "gsm8k_55_cross",
+    "condition": "cross_model",
+    "prompt_id": "gsm8k_55",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "gsm8k_55_within",
+    "condition": "within_model",
+    "prompt_id": "gsm8k_55",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_119_cross",
+    "condition": "cross_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_119",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_119_within",
+    "condition": "within_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_119",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "bbh_causal_judgement_141_cross",
+    "condition": "cross_model",
+    "prompt_id": "bbh_causal_judgement_141",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "bbh_causal_judgement_141_within",
+    "condition": "within_model",
+    "prompt_id": "bbh_causal_judgement_141",
+    "claude_side": "B",
+    "source_a": "claude_t0.3",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_153_cross",
+    "condition": "cross_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_153",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_153_within",
+    "condition": "within_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_153",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_60_cross",
+    "condition": "cross_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_60",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_60_within",
+    "condition": "within_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_60",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_62_cross",
+    "condition": "cross_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_62",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_62_within",
+    "condition": "within_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_62",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_193_cross",
+    "condition": "cross_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_193",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_193_within",
+    "condition": "within_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_193",
+    "claude_side": "B",
+    "source_a": "claude_t0.3",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_156_cross",
+    "condition": "cross_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_156",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_156_within",
+    "condition": "within_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_156",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_182_cross",
+    "condition": "cross_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_182",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_182_within",
+    "condition": "within_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_182",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_230_cross",
+    "condition": "cross_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_230",
+    "claude_side": "B",
+    "source_a": "gpt_default",
+    "source_b": "claude_t0.7"
+  },
+  {
+    "pair_id": "bbh_logical_deduction_three_objects_230_within",
+    "condition": "within_model",
+    "prompt_id": "bbh_logical_deduction_three_objects_230",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  },
+  {
+    "pair_id": "bbh_causal_judgement_128_cross",
+    "condition": "cross_model",
+    "prompt_id": "bbh_causal_judgement_128",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "gpt_default"
+  },
+  {
+    "pair_id": "bbh_causal_judgement_128_within",
+    "condition": "within_model",
+    "prompt_id": "bbh_causal_judgement_128",
+    "claude_side": "A",
+    "source_a": "claude_t0.7",
+    "source_b": "claude_t0.3"
+  }
+]

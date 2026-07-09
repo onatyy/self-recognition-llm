@@ -1,0 +1,591 @@
+{
+  "condition_stats": {
+    "cross_model": {
+      "n_correct_judgments": 23,
+      "n_total_judgments": 50,
+      "accuracy": 0.46,
+      "p_value": 0.6718110337653656,
+      "ci_95_low": 0.31814917856860875,
+      "ci_95_high": 0.6067580238830781,
+      "n_pairs": 25,
+      "mean_debiased_score_per_pair": 0.46,
+      "score_distribution": {
+        "1.0_both_orientations_correct": 1,
+        "0.5_one_orientation_correct": 21,
+        "0.0_both_orientations_incorrect": 3
+      }
+    },
+    "within_model": {
+      "n_correct_judgments": 27,
+      "n_total_judgments": 50,
+      "accuracy": 0.54,
+      "p_value": 0.6718110337653656,
+      "ci_95_low": 0.3932419761169219,
+      "ci_95_high": 0.6818508214313913,
+      "n_pairs": 25,
+      "mean_debiased_score_per_pair": 0.54,
+      "score_distribution": {
+        "1.0_both_orientations_correct": 4,
+        "0.5_one_orientation_correct": 19,
+        "0.0_both_orientations_incorrect": 2
+      }
+    }
+  },
+  "per_pair": [
+    {
+      "pair_id": "gsm8k_1089_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_1089_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_1283_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_1283_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "B",
+      "correct_original": false,
+      "claude_side_swapped": "B",
+      "choice_swapped": "B",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_387_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "B",
+      "correct_swapped": true,
+      "debiased_score": 1.0
+    },
+    {
+      "pair_id": "gsm8k_387_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "B",
+      "correct_swapped": true,
+      "debiased_score": 1.0
+    },
+    {
+      "pair_id": "gsm8k_22_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_22_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_454_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_454_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "B",
+      "correct_original": false,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.0
+    },
+    {
+      "pair_id": "gsm8k_827_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_827_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_1159_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_1159_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "B",
+      "correct_swapped": true,
+      "debiased_score": 1.0
+    },
+    {
+      "pair_id": "gsm8k_480_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "B",
+      "correct_original": false,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.0
+    },
+    {
+      "pair_id": "gsm8k_480_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_1268_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "B",
+      "correct_swapped": false,
+      "debiased_score": 0.0
+    },
+    {
+      "pair_id": "gsm8k_1268_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_673_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "B",
+      "correct_swapped": false,
+      "debiased_score": 0.0
+    },
+    {
+      "pair_id": "gsm8k_673_within",
+      "condition": "within_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_845_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_845_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_1155_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_1155_within",
+      "condition": "within_model",
+      "claude_side_original": "B",
+      "choice_original": "B",
+      "correct_original": true,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 1.0
+    },
+    {
+      "pair_id": "gsm8k_988_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_988_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "B",
+      "correct_original": false,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.0
+    },
+    {
+      "pair_id": "gsm8k_535_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_535_within",
+      "condition": "within_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_55_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "gsm8k_55_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "B",
+      "correct_original": false,
+      "claude_side_swapped": "B",
+      "choice_swapped": "B",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_119_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_119_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_causal_judgement_141_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_causal_judgement_141_within",
+      "condition": "within_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_153_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_153_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_60_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_60_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_62_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_62_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "B",
+      "correct_swapped": true,
+      "debiased_score": 1.0
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_193_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_193_within",
+      "condition": "within_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_156_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_156_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_182_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_182_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_230_cross",
+      "condition": "cross_model",
+      "claude_side_original": "B",
+      "choice_original": "A",
+      "correct_original": false,
+      "claude_side_swapped": "A",
+      "choice_swapped": "A",
+      "correct_swapped": true,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_logical_deduction_three_objects_230_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_causal_judgement_128_cross",
+      "condition": "cross_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    },
+    {
+      "pair_id": "bbh_causal_judgement_128_within",
+      "condition": "within_model",
+      "claude_side_original": "A",
+      "choice_original": "A",
+      "correct_original": true,
+      "claude_side_swapped": "B",
+      "choice_swapped": "A",
+      "correct_swapped": false,
+      "debiased_score": 0.5
+    }
+  ],
+  "swapped_orientation_position_bias_diagnostic": {
+    "n_A": 42,
+    "n_B": 8
+  },
+  "note": "Per-condition binomial tests pool both orientations of every pair (2 x n_pairs judgments) as approximately independent trials. This is a simplifying assumption: each judgment is a fresh, independent API call, but both orientations of a pair judge the same underlying texts."
+}

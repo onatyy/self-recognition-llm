@@ -1,0 +1,59 @@
+{
+  "cross_model": {
+    "cross_tab_claude_side_vs_choice": {
+      "A": {
+        "chose_A": 11,
+        "chose_B": 1
+      },
+      "B": {
+        "chose_A": 13,
+        "chose_B": 0
+      }
+    },
+    "accuracy_when_claude_side_is_A": {
+      "n_correct": 11,
+      "n_total": 12,
+      "accuracy": 0.9166666666666666,
+      "p_value": 0.00634765625,
+      "ci_95_low": 0.6152038348490562,
+      "ci_95_high": 0.9978924067681384
+    },
+    "accuracy_when_claude_side_is_B": {
+      "n_correct": 0,
+      "n_total": 13,
+      "accuracy": 0.0,
+      "p_value": 0.000244140625,
+      "ci_95_low": 0.0,
+      "ci_95_high": 0.2470526380005036
+    }
+  },
+  "within_model": {
+    "cross_tab_claude_side_vs_choice": {
+      "A": {
+        "chose_A": 16,
+        "chose_B": 4
+      },
+      "B": {
+        "chose_A": 4,
+        "chose_B": 1
+      }
+    },
+    "accuracy_when_claude_side_is_A": {
+      "n_correct": 16,
+      "n_total": 20,
+      "accuracy": 0.8,
+      "p_value": 0.01181793212890625,
+      "ci_95_low": 0.5633859970033314,
+      "ci_95_high": 0.942666002949976
+    },
+    "accuracy_when_claude_side_is_B": {
+      "n_correct": 1,
+      "n_total": 5,
+      "accuracy": 0.2,
+      "p_value": 0.375,
+      "ci_95_low": 0.005050763379468115,
+      "ci_95_high": 0.7164179361180895,
+      "note": "small subgroup (n < 10); test is underpowered, treat p-value/CI as indicative only"
+    }
+  }
+}

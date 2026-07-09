@@ -1,0 +1,7 @@
+anthropic>=0.40.0
+openai>=1.50.0
+datasets>=2.20.0
+scipy>=1.13.0
+matplotlib>=3.9.0
+numpy>=1.26.0
+python-dotenv>=1.0.0
